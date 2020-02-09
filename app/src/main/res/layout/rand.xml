@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/numeR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        tools:text="Team Name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rasaR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Team League"
+        android:layout_below="@id/numeR" />
+
+    <TextView
+        android:id="@+id/varstaR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1999"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
